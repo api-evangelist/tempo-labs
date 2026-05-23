@@ -1,0 +1,66 @@
+aid: tempo-labs
+url: https://raw.githubusercontent.com/api-evangelist/tempo-labs/refs/heads/main/apis.yml
+name: Tempo Labs
+kind: company
+description: >-
+  Tempo (Tempo Labs) is an AI app builder at tempo.new positioned around the
+  "Prompt. Develop. Design. Collaborate." loop - users describe an app in
+  natural language, Tempo generates code, and developers iterate either in
+  the visual canvas or directly in code. The product targets design-to-code
+  and prompt-to-code workflows for React / Next.js apps and is primarily
+  consumed as a hosted web product rather than as an API. Public developer
+  surface is limited; integrations and connected services (auth, database,
+  hosting) are surfaced inside the product rather than via a documented
+  public API.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - AI App Builder
+  - Design to Code
+  - Prompt to Code
+  - Low Code
+  - React
+  - Next.js
+  - Developer Tools
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: tempo-labs:web-app
+    name: Tempo Web App
+    description: >-
+      The Tempo product itself - a hosted AI app builder where users prompt,
+      generate, edit, and preview React / Next.js applications in the
+      browser. Combines a visual canvas, AI-generated code, and live preview.
+    humanURL: https://tempo.new/
+    baseURL: https://tempo.new/
+    tags:
+      - Product
+      - Web App
+      - AI Builder
+    properties:
+      - type: Website
+        url: https://tempo.new/
+  - aid: tempo-labs:docs
+    name: Tempo Documentation
+    description: >-
+      Official documentation for using Tempo - prompts and generation,
+      working with the canvas, code editing, integrations with auth /
+      database / hosting providers, and exporting projects.
+    humanURL: https://docs.tempo.new/
+    baseURL: https://docs.tempo.new/
+    tags:
+      - Documentation
+      - Guides
+    properties:
+      - type: Documentation
+        url: https://docs.tempo.new/
+common:
+  - type: Website
+    url: https://tempo.new/
+  - type: Documentation
+    url: https://docs.tempo.new/
+  - type: X
+    url: https://x.com/tempolabs_ai
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
