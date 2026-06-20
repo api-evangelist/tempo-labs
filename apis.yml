@@ -12,7 +12,7 @@ description: >-
   surface is limited; integrations and connected services (auth, database,
   hosting) are surfaced inside the product rather than via a documented
   public API.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - AI App Builder
   - Design to Code
